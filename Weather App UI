@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App UI</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+            background: linear-gradient(120deg, #3498db, #e74c3c);
+        }
+
+        .weather-app {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .weather-card {
+            background-color: rgba(255, 255, 255, 0.9);
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+            text-align: center;
+        }
+
+        .location {
+            font-size: 24px;
+            font-weight: bold;
+            margin-bottom: 10px;
+            color: #333;
+        }
+
+        .temperature {
+            font-size: 48px;
+            margin-bottom: 10px;
+            color: #333;
+        }
+
+        .description {
+            font-size: 18px;
+            margin-bottom: 20px;
+            color: #555;
+        }
+
+        .weather-icon {
+            width: 100px;
+            height: 100px;
+        }
+    </style>
+</head>
+<body>
+    <div class="weather-app">
+        <div class="weather-card">
+            <div class="location">New York, NY</div>
+            <div class="temperature">21°C</div>
+            <div class="description">Sunny</div>
+            <img src="sun.png" alt="Sun Icon" class="weather-icon">
+        </div>
+    </div>
+</body>
+</html>
